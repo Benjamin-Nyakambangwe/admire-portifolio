@@ -1,0 +1,245 @@
+@media (max-width: 375px) {
+	*{
+		overflow-x: hidden;
+	}
+	header {
+		grid-template-columns: 1fr;
+		padding: 10px 15px;
+	}
+
+	.responsive-head {
+		display: grid;
+		grid-template-columns: 3fr 1fr;
+	}
+
+	.responsive-head span {
+		margin-top: 10px;
+		margin-left: 40px;
+	}
+
+	header nav{
+		display: none;
+	}
+
+	header nav ul {
+	margin-left: 0px;
+	margin-top: 10px;
+	}
+
+	header nav ul li {
+		display: block;
+		margin-right: 5px;
+	}
+
+	header a:hover {
+		padding-bottom: 0px;
+	}
+
+	header a.current {
+		padding-bottom: 0px;
+	}
+
+	.showcase {
+		height: 60vh;
+	}
+
+	.showcase h1 {
+		font-size: 75px;
+		padding-left: 5px;
+		padding-top: 80px;
+	}
+
+	.showcase h2 {
+		font-size: 28px;
+		padding-left:8px;
+		font-weight: bold;
+	}
+
+	.about-section {
+		grid-template-columns: 1fr;
+		margin-top: -150px;
+		margin: 15px 0px;
+		width: 375px;
+	}
+
+	.about-section img {
+		width:350px;
+		margin: auto;
+		margin-left: 10px;
+	}
+
+	.about-section p {
+		padding: 15px;
+		text-align: center;
+	}
+
+	.skills .card-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.skills .card {
+		margin: 25px 15px 40px 35px;
+		
+	}
+
+	.skills .card h3 {
+	margin: 15px;
+	}
+
+	.portifolio-section {
+		margin-left: 15px;
+		margin-right: 15px;
+		margin-top: 25px;
+	}
+
+	.portifolio-section-grid {
+		 grid-template-columns: 1fr;
+		 margin-left: 0px;
+	}
+
+	.contact .contact-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.contact form {
+		margin-left: 0px;
+		margin: 0px;
+	}
+
+	.contact form input {
+		width: 350px;
+		padding: 5px;
+	}
+
+	.contact form textarea {
+		width: 350px;
+		padding: 5px;
+	}
+
+
+	.contact form button {
+		width: 350px;
+		padding: 5px;
+	}
+
+	.contact .address {
+		margin: 15px;
+	}
+
+	.contact .address h4 {
+		padding: 10px;
+	}
+
+	.contact .address i {
+		padding-right: 5px;
+	}
+
+	footer {
+		padding: 25px;
+	}
+
+	footer .social {
+		margin-left: 15px
+	}
+
+	.about-intro {
+		font-size: 20px;
+		margin: 10px;
+	}
+
+	.about {
+		grid-template-columns: 1fr;
+		margin: 15px 5px;
+	}
+
+	.about img {
+		width: 350px;
+	}
+
+	.skills-about .card-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.skills-about .card {
+		margin: 25px 15px 40px 35px;	
+	}
+
+	.skills-about .card h3 {
+		margin: 15px;
+	}
+
+	.tools-grid {
+		grid-template-columns: 1fr;
+		margin: 20px 15px;
+		border-bottom: 5px solid #1a1a2e;
+		border-top: 5px solid #1a1a2e;
+	}
+
+	#toolsImage {
+		display: none;
+	}
+
+	.tools ul {
+		margin-left: 20px;
+	}
+
+	.portifolio {
+		margin: 45px 0 0 0 ;
+	}
+
+	.portifolio h1 {
+		font-size: 22px;
+	}
+
+	.portifolio-grid {
+		grid-template-columns: 1fr;
+		margin-left: 10px;
+	}
+
+	.portifolio-grid img {
+		width: 350px;
+		/*margin-left: 15px;*/
+	}
+
+	.portifolio #image {
+		width: 350px;
+		height: 406.3px;	
+	}
+
+	.contact-form form {
+		margin-left: 5px;
+	}
+
+	.contact-form input {
+		padding: 8px;
+		width: 360px;
+		margin: 5px;
+	}
+
+	.contact-form textarea {
+		padding: 8px;
+		width: 360px;
+		height: 125px;
+		margin: 5px;
+	}
+
+	.contact-form form button {
+		padding: 8px;
+		width: 360px;
+		margin: 5px;
+	}
+
+	.contact-form .address {
+		margin: 15px;
+	}
+
+	.contact-form .address h4 {
+		padding: 10px;
+	}
+
+	.contact-form .address i {
+		padding-right: 5px;
+	}
+
+
+}	
